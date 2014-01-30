@@ -22,24 +22,24 @@ for angle in range(0, 45):
 setServo(45)
 urllib2.urlopen("http://10.5.5.9/camera/SH?t=PASSWORD&p=%02")
 time.sleep(2)
-for angle in range(0, 45):
-setServo(45)
+for angle in range(45, 90):
+setServo(90)
 urllib2.urlopen("http://10.5.5.9/camera/SH?t=PASSWORD&p=%02")
 time.sleep(2)
-for angle in range(0, 45):
-setServo(45)
+for angle in range(90, 135):
+setServo(135)
 urllib2.urlopen("http://10.5.5.9/camera/SH?t=PASSWORD&p=%02")
 time.sleep(2)
-for angle in range(0, 45):
-setServo(45)
+for angle in range(135, 180):
+setServo(180)
 urllib2.urlopen("http://10.5.5.9/camera/SH?t=PASSWORD&p=%02")
 time.sleep(2)
-for angle in range(0, 45):
-setServo(45)
+for angle in range(180, 225):
+setServo(225)
 urllib2.urlopen("http://10.5.5.9/camera/SH?t=PASSWORD&p=%02")
 time.sleep(2)
-for angle in range(0, 45):
-setServo(45)
+for angle in range(225, 270):
+setServo(270)
 urllib2.urlopen("http://10.5.5.9/camera/SH?t=PASSWORD&p=%02")
 time.sleep(3)
 urllib2.urlretrieve("http://10.5.5.9:8080/videos/DCIM/XXXGOPRO") # XXX is the number of the folder your gopro creates
