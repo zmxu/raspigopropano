@@ -43,12 +43,5 @@ setServo(270)
 urllib2.urlopen("http://10.5.5.9/bacpac/SH?t=password&p=%01")
 time.sleep(3)
 urllib2.urlretrieve("http://10.5.5.9:8080/videos/DCIM/XXXGOPRO") # XXX is the number of the folder your gopro creates
--------------
-| Stitch:
-| SRC: usr/downloads
-| Target: usr/downloads/raspigopropano
-| Degrees: 270
-| Number of pics: 6
--------------
 time.sleep(4)
 print("Pano finished, be a hero.")
