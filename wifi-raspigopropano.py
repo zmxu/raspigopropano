@@ -17,7 +17,7 @@ set("mode", "servo")
 set("servo_max", "180")
 set("active", "1")
 delay_period = 0.01
-#replace PASSWORD by the camera wifi password
+#replace password by the camera wifi password
 for angle in range(0, 45):
 setServo(45)
 urllib2.urlopen("http://10.5.5.9/bacpac/SH?t=password&p=%01")
